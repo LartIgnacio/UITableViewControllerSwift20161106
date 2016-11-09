@@ -32,6 +32,7 @@ class TableViewController: UITableViewController {
         
         
         
+        
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.purpleColor()
         } else {
