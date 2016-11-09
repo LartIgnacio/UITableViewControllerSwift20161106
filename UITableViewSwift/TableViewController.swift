@@ -34,7 +34,6 @@ class TableViewController: UITableViewController {
         } else {
             cell.backgroundColor = UIColor.redColor()
         }
-
         
         return cell
     }
