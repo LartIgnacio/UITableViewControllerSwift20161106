@@ -30,6 +30,8 @@ class TableViewController: UITableViewController {
         let cell : UITableViewCell! = self.tableView.dequeueReusableCellWithIdentifier("SampleTableViewCell")
         
         
+        
+        
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.purpleColor()
         } else {
